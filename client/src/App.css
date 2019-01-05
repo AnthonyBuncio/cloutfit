@@ -1,0 +1,76 @@
+textarea:focus, 
+textarea.form-control:focus, 
+input[type=text]:focus, 
+.btn:focus {
+  box-shadow: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+/* FIXES CAROUSEL POSITIONING ISSUE */
+.carousel-item > img { 
+  width: 100%; 
+}
+
+.carousel-control-prev,.carousel-control-next {
+  cursor:pointer;
+}
+
+
+/* FIXES CAROUSEL PREV/NEXT ARROWS */
+.carousel-control-prev,
+.carousel-control-next {
+    height: 50px;
+    width: 50px;
+    outline: $color-white;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid $color-white;
+    background-color: $color-white;
+}
+
+.carousel-control-prev-icon { 
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+    width: 30px;
+    height: 48px;
+}
+.carousel-control-next-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+
+.carousel {
+  width:30%;
+  height:auto;
+  margin: auto;
+}
+
+.list-group-item {
+  width: 50%;
+  margin: auto;
+}
+
+.input-group {
+  width: 25%;
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    width:90%;
+    height:auto;
+    margin: auto;
+  }
+
+  .list-group-item {
+    width: 90%;
+    margin: auto;
+  }
+
+  .input-group {
+    width: 80%;
+  }
+}
