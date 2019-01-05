@@ -12,8 +12,7 @@ const Shoe = require('../../models/Shoe')
         //Only used by owner ^
         //Make sure GET request on Postman has EMPTY body
 router.get('/', (req, res) => {  
-    Shoe.find({"name": new RegExp(req.query.name, "i")})
-            .sort({ date: -1 })
+    Shoe.find({"name": new RegExp(req.query.name, "i")}, null, {sort: {display: 1}})
             .then(shoes => res.json(shoes))
 });
 
