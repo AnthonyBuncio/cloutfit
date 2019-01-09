@@ -2,6 +2,8 @@
 
 [Add Description]
 
+![example-site](out.gif)
+
 ## Objectives
 
 * [ ] 📝 Diagram the Full Stack
