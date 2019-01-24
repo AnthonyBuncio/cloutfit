@@ -1,18 +1,21 @@
-# Cloutfit - Sneaker outfit lookbook
+<!-- prettier-ignore-start -->
+# Cloutfit
 
-[Add Description]
+Sneaker fashion lookbook to help curate an outfit on the fly. Contains styles for men and women, and gives several options on what to wear depending on the shoes you decide to wear for the night.
 
 ![example-site](out.gif)
 
 ## Objectives
 
-* [ ] 📝 Diagram the Full Stack
-* [ ] 🔎 Differentiate between Client and Server
-* [ ] ⌨️ Get user search input on the Client
-* [ ] ➡️ Send user input from the client with fetch to the server
-* [ ] 🔍 Retrieve data from a database on the Server
-* [ ] 🙈 Hide/Show elements on the client
-* [ ] ✨ Add elements to the page on the client
-* [ ] 🚀 Deploy the client with Heroku
-* [ ] 🚀 Deploy the database with mLab
-* [ ] 🚀 Deploy the server with Heroku
+* [x] 📝 Diagram the Full Stack
+* [x] 🔎 Differentiate between Client and Server
+* [x] ⌨️ Get user search input on the Client
+* [x] ➡️ Send user input from the client with fetch to the server
+* [x] 🔍 Retrieve data from a database on the Server
+* [x] 👀 Show images on the client
+* [x] 🙈 Hide shoe names on the client
+* [x] 🚀 Deploy the database with mLab
+* [x] 🚀 Deploy the client with Heroku
+* [x] 🚀 Deploy the server with Heroku
+
+<!-- prettier-ignore-end -->
